@@ -57,8 +57,8 @@
         <value>271</value>
         <value>316</value>
     </array>
-    <item name="cpu.awake">7</item>
-    <item name="cpu.idle">3.8</item>
+    <item name="cpu.idle">7</item>
+    <item name="cpu.suspend">3.8</item>
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
