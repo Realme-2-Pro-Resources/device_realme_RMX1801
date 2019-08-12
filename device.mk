@@ -438,7 +438,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libaacwrapper \
     libnl
 
 # WiFi firmware symlinks
