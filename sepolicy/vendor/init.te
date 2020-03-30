@@ -2,3 +2,7 @@ allow init oppo_reserve_file:dir mounton;
 allow init sysfs_leds:file setattr;
 allow init sysfs_mmc:file setattr;
 allow init system_data_file:dir add_name;
+
+# Root directories
+allow init bt_firmware_file:filesystem getattr;
+allow init firmware_file:filesystem getattr;
