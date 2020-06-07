@@ -264,7 +264,9 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.qti.qseecomd.sh \
+    init.realmeparts.rc \
     init.recovery.qcom.rc \
+    init.realmeparts.rc \
     init.target.rc \
     init.uclamp.rc \
     ueventd.qcom.rc

@@ -5,9 +5,6 @@ on boot
     setprop persist.vendor.radio.force_on_dc true
     mkdir /persist/media 0775 media media
 
-    # OTG
-    write /sys/class/power_supply/usb/otg_switch 1
-
     # Add for limit_enable
     chown system system /proc/touchpanel/oppo_tp_limit_enable
     chown system system /proc/touchpanel/oppo_tp_limit_area
