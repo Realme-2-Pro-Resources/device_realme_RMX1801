@@ -160,9 +160,9 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0
 
-# Configstore
+# ConfigStore
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.1-service
+    disable_configstore
 
 # Display
 PRODUCT_PACKAGES += \
