@@ -161,7 +161,7 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.1-service \
+    disable_configstore \
     android.hardware.broadcastradio@1.0-impl
 
 # Control groups and task profiles
