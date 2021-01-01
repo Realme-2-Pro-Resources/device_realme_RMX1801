@@ -415,16 +415,6 @@
         <fqname>@1.0::ITouchscreenGesture/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.trust</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IUsbRestrict</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IUsbRestrict/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.hardware.camera.oppopostproc</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
