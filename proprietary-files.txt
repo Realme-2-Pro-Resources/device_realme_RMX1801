@@ -2752,7 +2752,6 @@ vendor/firmware/b_fp.mdt
 vendor/bin/loc_launcher|f170dc02d9046fcde1fc58656b0387773a85e78d
 vendor/bin/lowi-server|6c66e4c543d67af692ff7c78f12fc90cc4bd0bcd
 vendor/bin/mlid|a36c293c13e1929f8943ac8518e27065c0f51ae3
-vendor/bin/slim_daemon|8b83f55aace84b0519d73a16c64ed38152cc7805
 vendor/bin/xtra-daemon|cd0305e252493d65780b5ff188f937f84c64675a
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
