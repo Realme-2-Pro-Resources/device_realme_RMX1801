@@ -40,8 +40,8 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
 
 # Audio
-etc/permissions/audiosphere.xml
-framework/audiosphere.jar
+system/etc/permissions/audiosphere.xml
+system/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdiraceffect.so
 vendor/lib/libacdb-fts.so
@@ -208,29 +208,29 @@ vendor/lib/libarcvs.dep.so|4942cdc54750e2e82b2cb23d4fe073ef1c920b55
 vendor/lib/libarcvs.so
 
 # Camera calibration files
-etc/camera/cp/CPCalibrationData.bin:vendor/etc/camera/cp/CPCalibrationData.bin
-etc/camera/cp/FusionCalibrationParams.bin:vendor/etc/camera/cp/FusionCalibrationParams.bin
-etc/camera/cp/SystemParamsBokeh.bin:vendor/etc/camera/cp/SystemParamsBokeh.bin
-etc/camera/cp/SystemParamsFusion.bin:vendor/etc/camera/cp/SystemParamsFusion.bin
-etc/camera/faceTpl0.rgb32:vendor/etc/camera/faceTpl0.rgb32
-etc/camera/faceTpl1.rgb32:vendor/etc/camera/faceTpl1.rgb32
-etc/camera/gasryuv.model:vendor/etc/camera/gasryuv.model
-etc/camera/skinSeg.model:vendor/etc/camera/skinSeg.model
+system/etc/camera/cp/CPCalibrationData.bin:vendor/etc/camera/cp/CPCalibrationData.bin
+system/etc/camera/cp/FusionCalibrationParams.bin:vendor/etc/camera/cp/FusionCalibrationParams.bin
+system/etc/camera/cp/SystemParamsBokeh.bin:vendor/etc/camera/cp/SystemParamsBokeh.bin
+system/etc/camera/cp/SystemParamsFusion.bin:vendor/etc/camera/cp/SystemParamsFusion.bin
+system/etc/camera/faceTpl0.rgb32:vendor/etc/camera/faceTpl0.rgb32
+system/etc/camera/faceTpl1.rgb32:vendor/etc/camera/faceTpl1.rgb32
+system/etc/camera/gasryuv.model:vendor/etc/camera/gasryuv.model
+system/etc/camera/skinSeg.model:vendor/etc/camera/skinSeg.model
 vendor/etc/camera/ashdr/ncf_pack.ncf
 vendor/etc/DxHDCP.cfg
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
-etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_5_1.fw:vendor/firmware/cpp_firmware_v1_5_1.fw
-etc/firmware/cpp_firmware_v1_5_2.fw:vendor/firmware/cpp_firmware_v1_5_2.fw
-etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
+system/etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
+system/etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
+system/etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
+system/etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
+system/etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
+system/etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
+system/etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
+system/etc/firmware/cpp_firmware_v1_5_1.fw:vendor/firmware/cpp_firmware_v1_5_1.fw
+system/etc/firmware/cpp_firmware_v1_5_2.fw:vendor/firmware/cpp_firmware_v1_5_2.fw
+system/etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
+system/etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera-chromatix
 vendor/lib/libchromatix_csidtg_common.so
@@ -2581,7 +2581,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|851db5940d5e9e4330e16221be114ae
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|c041dbfc99643e791e52c4e7f3a87050a8cd6c93
 
 # DPM - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
-framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
+system/framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
 system_ext/bin/dpmd|4662a11c5331919cc08d541a298444ffce18cc1b
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
@@ -2958,8 +2958,8 @@ vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
 # Perf
-lib64/libqti-perfd-client_system.so
-lib64/libqti_performance.so
+system/lib64/libqti-perfd-client_system.so
+system/lib64/libqti_performance.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/energy-awareness
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
@@ -3019,7 +3019,7 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|6f587a9a2889a75559539b
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
 
 # QMI
-etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml
+system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib/libdiag.so
