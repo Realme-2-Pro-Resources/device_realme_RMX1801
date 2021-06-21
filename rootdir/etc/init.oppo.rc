@@ -110,6 +110,9 @@ on boot
     chmod 0664 /sys/bus/platform/devices/soc:fpc_fpc1020/irq_enable
     chmod 0664 /sys/bus/platform/devices/soc:fpc_fpc1020/wakelock_enable
 
+on charger
+    start vendor.health-hal-2-0
+
 on init
     start keymaster-3-0
 
