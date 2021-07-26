@@ -185,6 +185,9 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/dsp:/dsp \
     /vendor/firmware_mnt:/firmware
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-10-05
 
