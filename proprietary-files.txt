@@ -2885,7 +2885,6 @@ vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 
 # IRQ HAL
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
