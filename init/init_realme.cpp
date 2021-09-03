@@ -240,5 +240,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", "8m");
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
+    // Safetyet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
+
     init_alarm_boot_properties();
 }
