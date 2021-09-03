@@ -145,9 +145,6 @@ vidc.enc.target_support_bframe=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
-# OEM Unlock reporting
-ro.oem_unlock_supported=1
-
 # Perf
 ro.vendor.qti.core_ctl_min_cpu=2
 ro.vendor.qti.core_ctl_max_cpu=4

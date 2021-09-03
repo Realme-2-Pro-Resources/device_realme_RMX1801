@@ -242,6 +242,7 @@ void vendor_load_properties()
 
     // Safetyet Workaround
     property_override("ro.boot.verifiedbootstate", "green");
+    property_override("ro.oem_unlock_supported", "0");
 
     init_alarm_boot_properties();
 }
