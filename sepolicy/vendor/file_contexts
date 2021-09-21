@@ -9,8 +9,6 @@
 /vendor/bin/hw/vendor\.oppo\.hardware\.biometrics\.fingerprint@2\.1-service                             u:object_r:hal_fingerprint_oppo_exec:s0
 
 # Firmware
-/firmware                                                                                               u:object_r:firmware_file:s0
-/bt_firmware                                                                                            u:object_r:bt_firmware_file:s0
 /persist                                                                                                u:object_r:mnt_vendor_file:s0
 
 # Hexagon DSP-side executable needed for Halide operation

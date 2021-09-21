@@ -150,10 +150,7 @@ PROTOBUF_SUPPORTED := true
 
 # Root Directories
 BOARD_ROOT_EXTRA_SYMLINKS := \
-    /mnt/vendor/persist:/persist \
-    /vendor/bt_firmware:/bt_firmware \
-    /vendor/dsp:/dsp \
-    /vendor/firmware_mnt:/firmware
+    /mnt/vendor/persist:/persist
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-10-05
