@@ -2821,7 +2821,6 @@ vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libEGL_adreno.so
 vendor/lib/libOpenCL.so
-vendor/lib/libRSDriver_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libbccQTI.so
 vendor/lib/libc2d30_bltlib.so
@@ -2844,7 +2843,6 @@ vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libEGL_adreno.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libbccQTI.so
 vendor/lib64/libc2d30_bltlib.so
