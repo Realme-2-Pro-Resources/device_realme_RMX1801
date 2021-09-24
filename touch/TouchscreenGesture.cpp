@@ -16,8 +16,8 @@
 
 #define LOG_TAG "TouchscreenGestureService"
 
-#include "TouchscreenGesture.h"
-#include "touch/realme/TouchscreenGesture.h"
+#include <touch/realme/TouchscreenGesture.h>
+#include "touch/realme/TouchscreenGestureConfig.h"
 #include <android-base/logging.h>
 #include <fstream>
 
