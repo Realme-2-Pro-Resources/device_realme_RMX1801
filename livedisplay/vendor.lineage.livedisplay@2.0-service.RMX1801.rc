@@ -1,0 +1,7 @@
+on boot
+    chown system system /sys/devices/virtual/graphics/fb0/cabc
+
+service vendor.livedisplay-hal-2-0 /vendor/bin/hw/vendor.lineage.livedisplay@2.0-service.RMX1801
+    class hal
+    user system
+    group system
