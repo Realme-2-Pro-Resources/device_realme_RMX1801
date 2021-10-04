@@ -38,6 +38,8 @@ public class Startup extends BroadcastReceiver {
         restore(USBFastChgModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(RealmeParts.PREF_OTG_SWITCH, false);
         restore(OTGModeSwitch.getFile(), enabled);
+        enabled = sharedPrefs.getBoolean(RealmeParts.PREF_VMAX_OVERRIDE_SWITCH, false);
+        restore(VibratorOverrideModeSwitch.getFile(), enabled);
     }
 
     private boolean hasRestoredTunable(Context context) {
