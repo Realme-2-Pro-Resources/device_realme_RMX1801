@@ -44,6 +44,7 @@ TARGET_NO_BOOTLOADER := true
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 service_locator.enable=1 swiotlb=1 loop.max_part=7
 BOARD_KERNEL_CMDLINE += usbcore.autosuspend=7
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_PAGE_SIZE := 4096
 BOARD_RAMDISK_OFFSET     := 0x01000000
@@ -165,9 +166,11 @@ BOARD_VNDK_VERSION := current
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Sepolicy
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+# include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+# SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+# BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy_minimal
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verity
 # Only needed for signing
