@@ -111,6 +111,9 @@ ro.opengles.version=196610
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
+# Notch
+ro.support_hide_display_cutout=true
+
 # OEM Unlock reporting
 ro.oem_unlock_supported=1
 
