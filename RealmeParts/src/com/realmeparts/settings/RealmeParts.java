@@ -17,6 +17,7 @@
 
 package com.realmeparts.settings;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.preference.PreferenceFragment;
@@ -34,8 +35,7 @@ import com.realmeparts.settings.vibration.CallVibratorStrengthPreference;
 import com.realmeparts.settings.vibration.NotificationVibratorStrengthPreference;
 import com.realmeparts.settings.vibration.VibratorStrengthPreference;
 
-public class RealmeParts extends PreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class RealmeParts extends PreferenceFragment {
 
     public static final String PREF_USB_FAST_CHARGE_SWITCH = "fastcharge";
     public static final String USB_FAST_CHARGE_PATH = "/sys/kernel/fast_charge/force_fast_charge";
@@ -49,6 +49,16 @@ public class RealmeParts extends PreferenceFragment implements
     private static TwoStatePreference mUSBFastChgModeSwitch;
     private static TwoStatePreference mOTGModeSwitch;
     private static TwoStatePreference mVmaxOverrideModeSwitch;
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        final ActionBar actionBar = getActivity().getActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
+    }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -96,10 +106,5 @@ public class RealmeParts extends PreferenceFragment implements
         mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());
         mOTGModeSwitch.setChecked(OTGModeSwitch.isCurrentlyEnabled(this.getContext()));
         mOTGModeSwitch.setOnPreferenceChangeListener(new OTGModeSwitch(getContext()));
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
     }
 }
