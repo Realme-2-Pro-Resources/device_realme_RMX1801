@@ -2951,14 +2951,12 @@ vendor/lib64/vendor.qti.latency@2.0.so|60ab3143325e855f8c72e3f603c28efe2e7227b9
 vendor/lib64/vendor.qti.latency@2.1.so|47f0d25338274af94764be9d39eabef8cf5ca790
 
 # Listen - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
-vendor/lib/hw/sound_trigger.primary.sdm660.so|f9fc90dd0ffaff3df5873d9536bb7a2b7d60450c
 vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
 vendor/lib/libgcs-calwrapper.so|7bbad068766b970e3fa576f372ed36b87e6d7898
 vendor/lib/libgcs-ipc.so|dd9c0e6e25b4b1c8a80cec843a7eec990111447f
 vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
 vendor/lib/libgcs.so|16dd5d2893062e717921674f92338d12a6a823fc
 vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
-vendor/lib64/hw/sound_trigger.primary.sdm660.so|8ba814589804390c26ac221c154cfa0baa8b7fa3
 vendor/lib64/libgcs-calwrapper.so|a5ffefbb0bd9ffddcc25859e18b7a444cd4d7cba
 vendor/lib64/libgcs-ipc.so|cf81a1d80a3faf4c1dd201477d8d80ec92a56dba
 vendor/lib64/libgcs-osal.so|6563b261374b1cf54ce1eaf4eda4b98ea2a0ecd7
