@@ -364,15 +364,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.oppo.hardware.ktv</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IKtv</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.hardware.mmdisplayfeature</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
