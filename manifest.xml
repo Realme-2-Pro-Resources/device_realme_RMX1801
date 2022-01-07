@@ -355,24 +355,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.oppo.hardware.cryptoeng</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ICryptoeng</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.mmdisplayfeature</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IMMDisplayFeature</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.hardware.radio.oppoappradio</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
