@@ -61,10 +61,7 @@ function blob_fixup() {
         product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
             sed -i 's|xml version="2.0"|xml version="1.0"|g' "${2}"
             ;;
-        system_ext/etc/init/dpmd.rc)
-            sed -i "s|/system/product/bin/|/system/system_ext/bin/|g" "${2}"
-            ;;
-        system_ext/etc/permissions/com.qti.dpmframework.xml | system_ext/etc/permissions/dpmapi.xml | system_ext/etc/permissions/telephonyservice.xml)
+        system_ext/etc/permissions/telephonyservice.xml)
             sed -i "s|/system/product/framework/|/system/system_ext/framework/|g" "${2}"
             ;;
         system_ext/etc/permissions/qcrilhook.xml)
