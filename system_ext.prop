@@ -1,2 +1,8 @@
 # DPM
 persist.vendor.dpm.feature=11
+
+# IMS
+persist.ims.disableADBLogs=1
+persist.ims.disableDebugLogs=1
+persist.ims.disableQXDMLogs=1
+persist.ims.disableIMSLogs=1
