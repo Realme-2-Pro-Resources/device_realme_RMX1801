@@ -2902,7 +2902,6 @@ vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
-vendor/etc/init/init.qdmastats.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrild.rc
@@ -3062,6 +3061,23 @@ vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
+# QCC - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+system_ext/bin/qccsyshalservice|cc7b5fcc8d1b2e5b8c10078649cf7f34c2e683d3
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc|a6be39306a3d6c1f6fbe54b59282d11ce12a3319
+system_ext/lib64/libqcc.so|42114c84a6cdf2cff837015f4b106ab19bd1270e
+system_ext/lib64/libqcc_file_agent_sys.so|afa96a113e3b600253580bc103100347f354da92
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so|934a3e11f3f0d1ab0878eb2892ed89c56b6d43b3
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so|10076c4ace37de1a7d91ed5c8d665e739e02774c
+system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|e42562ad6ad8655f1aaa836210fe29f6223c05a8
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
+vendor/bin/qcc-trd|d2ac6458e73e27693428357ea913e2bd6b4ca287
+vendor/etc/init/init.qdmastats.rc|837b16bf9600715345fc65d5d6c98ce97f2d4583
+vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|0b1e323871e2828b9e8970e42635e3f7999a17e4
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|6f587a9a2889a75559539b06c167960f06b01c42
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
 
 # QMI
 etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml
