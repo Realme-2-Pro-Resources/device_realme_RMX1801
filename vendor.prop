@@ -94,6 +94,7 @@ dalvik.vm.minidebuginfo=false
 
 # Bluetooth
 persist.vendor.bt.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
