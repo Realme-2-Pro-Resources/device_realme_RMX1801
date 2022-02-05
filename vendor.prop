@@ -78,7 +78,7 @@ vendor.audio.feature.wsa.enable=false
 
 # Bluetooth
 persist.vendor.bt.aac_frm_ctl.enabled=true
-vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
 persist.vendor.camera.expose.aux=1

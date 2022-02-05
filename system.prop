@@ -8,13 +8,6 @@ audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 ro.af.client_heap_size_kbyte=7168
 
-# Bluetooth
-bt.max.hfpclient.connections=1
-persist.bt.a2dp.aac_disable=true
-ro.bluetooth.emb_wp_mode=false
-ro.bluetooth.wipower=false
-vendor.bluetooth.soc=cherokee
-
 # Camera
 persist.camera.aifb=1
 persist.camera.filter.version=1
