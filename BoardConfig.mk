@@ -146,7 +146,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Partitions - reserved size
 $(foreach p, $(call to-upper, $(SSI_PARTITIONS)), \
-	$(eval BOARD_$(p)IMAGE_EXTFS_INODE_COUNT := 6144))
+	$(eval BOARD_$(p)IMAGE_EXTFS_INODE_COUNT := -1))
 $(foreach p, $(call to-upper, $(TREBLE_PARTITIONS)), \
 	$(eval BOARD_$(p)IMAGE_EXTFS_INODE_COUNT := 5120))
 
