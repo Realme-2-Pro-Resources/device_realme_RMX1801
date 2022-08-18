@@ -101,7 +101,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libtinycompress \
-    libvolumelistener
+    libvolumelistener \
+    sound_trigger.primary.sdm660
 
 PRODUCT_PACKAGES += \
     libbatterylistener \
