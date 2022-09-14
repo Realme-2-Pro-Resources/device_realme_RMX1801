@@ -91,4 +91,6 @@
         <value>47</value>
     </array>
     <item name="gps.voltage">1800</item>
+    <item name="gps.voltage">0</item>
+    <item name="bluetooth.controller.voltage">3300</item>
 </device>
