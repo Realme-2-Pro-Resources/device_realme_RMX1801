@@ -3345,10 +3345,6 @@ vendor/lib64/libtime_genoff.so
 vendor/lib64/libUBWC.so
 vendor/lib64/libstreamparser.so
 
-# Voice
-vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
-
 # WiFi
 vendor/bin/cnss-daemon
 
