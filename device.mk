@@ -149,7 +149,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     libbluetooth_audio_session \
-    libbthost_if \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Bluetooth component overrides
