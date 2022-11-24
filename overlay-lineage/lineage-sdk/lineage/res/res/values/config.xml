@@ -101,5 +101,7 @@
         <item>org.codeaurora.snapcam</item>
         <item>com.android.camera</item>
         <item>com.google.android.GoogleCamera</item>
+        <item>org.lineageos.aperture</item>
+        <item>org.lineageos.aperture.dev</item>
     </string-array>
 </resources>
