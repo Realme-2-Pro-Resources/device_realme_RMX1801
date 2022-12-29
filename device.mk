@@ -110,7 +110,6 @@ PRODUCT_PACKAGES += \
     libcomprcapture \
     libexthwplugin \
     libhdmiedid \
-    libhdmipassthru \
     libhfp \
     libsndmonitor \
     libspkrprot
