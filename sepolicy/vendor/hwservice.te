@@ -1,1 +1,2 @@
 type hal_fingerprint_oppo_hwservice, hwservice_manager_type;
+type oppoalgo_daemon_hwservice, hwservice_manager_type;

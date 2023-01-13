@@ -2493,6 +2493,7 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - oppoalgo_daemon
+vendor/bin/oppoalgo_daemon
 vendor/lib/liboppoalgolib.so
 vendor/lib/liboppocamalgo_daemon.so
 

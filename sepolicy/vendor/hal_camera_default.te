@@ -6,6 +6,7 @@ allow hal_camera_default media_rw_data_file:dir { read open search };
 allow hal_camera_default mnt_user_file:dir search;
 allow hal_camera_default mnt_user_file:lnk_file r_file_perms;
 allow hal_camera_default mnt_vendor_file:file { create read write open getattr };
+allow hal_camera_default oppoalgo_daemon:binder transfer;
 allow hal_camera_default oppoalgo_service:service_manager find;
 allow hal_camera_default oppo_reserve_file:dir { search write add_name };
 allow hal_camera_default oppo_reserve_file:file { create read write open getattr };
@@ -29,6 +30,8 @@ allow hal_camera_default system_file:file r_file_perms;
 
 get_prop(hal_camera_default, camera_prop)
 set_prop(hal_camera_default, camera_prop)
+
+binder_call(hal_camera_default, oppoalgo_daemon)
 
 dontaudit hal_camera_default self:tcp_socket { create };
 dontaudit hal_camera_default vendor_shell_exec:file { execute_no_trans };

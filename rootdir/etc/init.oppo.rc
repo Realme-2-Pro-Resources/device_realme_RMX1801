@@ -23,3 +23,10 @@ on boot
 
     # Set oppo camera package name to com.oppo.camera to trick camera hal
     setprop oppo.camera.packname com.oppo.camera
+
+# Add for oppoalgo_daemon
+service oppoalgo /vendor/bin/oppoalgo_daemon
+    class main
+    user media
+    ioprio rt 4
+    group camera input drmrpc sdcard_rw system
