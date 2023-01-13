@@ -103,13 +103,13 @@
     },
     {
       "Name": "TA_uClampBoost",
-      "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
+      "Path": "/dev/cpuset/top-app/uclamp.min",
       "Values": [
-     "0", 
-     "10",
-     "25",
-     "35",
-     "max"
+        "0", 
+        "10",
+        "25",
+        "35",
+        "max"
       ],
       "DefaultIndex": 1,
       "ResetOnInit": true
