@@ -147,8 +147,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl:32 \
     audio.bluetooth.default \
     libbluetooth_audio_session \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.fm@1.0.vendor
+    vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
