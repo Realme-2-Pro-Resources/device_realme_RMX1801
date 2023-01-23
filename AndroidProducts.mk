@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_RMX1801.mk
+    $(LOCAL_DIR)/banana_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_RMX1801-user \
-    derp_RMX1801-userdebug \
-    derp_RMX1801-eng
+    banana_RMX1801-user \
+    banana_RMX1801-userdebug \
+    banana_RMX1801-eng
