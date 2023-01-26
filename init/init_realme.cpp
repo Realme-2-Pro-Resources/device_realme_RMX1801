@@ -245,5 +245,7 @@ void vendor_load_properties()
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.oem_unlock_supported", "0");
 
+    property_override("ro.control_privapp_permissions", "log");
+
     init_alarm_boot_properties();
 }
