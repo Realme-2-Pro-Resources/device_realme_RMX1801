@@ -25,6 +25,7 @@ ro.vendor.use_data_netmgrd=true
 
 # Display
 debug.renderengine.backend=threaded
+debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 persist.demo.hdmirotationlock=false
