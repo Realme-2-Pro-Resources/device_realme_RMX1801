@@ -63,9 +63,7 @@ struct RMX180X_props
 
 std::vector<std::string> ro_props_default_source_order = {
     "",
-    "bootimage.",
     "odm.",
-    "product.",
     "system.",
     "system_ext.",
     "vendor.",
