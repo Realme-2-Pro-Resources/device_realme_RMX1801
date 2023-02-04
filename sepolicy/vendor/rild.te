@@ -11,3 +11,5 @@ allow rild system_data_file:dir getattr;
 get_prop(rild, oppo_debug_prop)
 set_prop(rild, oppo_debug_prop)
 set_prop(rild, vendor_radio_prop)
+
+binder_call(rild, qtidataservices_app)
