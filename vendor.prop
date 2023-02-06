@@ -148,6 +148,10 @@ ro.vendor.sensors.facing=false
 ro.vendor.sensors.cmc=false
 ro.vendor.sdk.sensors.gestures=false
 
+# SOC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM660
+
 # SurfaceFlinger
 debug.sf.early_phase_offset_ns=1500000
 debug.sf.early_app_phase_offset_ns=1500000
