@@ -24,6 +24,9 @@ on boot
     # Set oppo camera package name to com.oppo.camera to trick camera hal
     setprop oppo.camera.packname com.oppo.camera
 
+    # Lineage Health
+    chown system system /sys/class/power_supply/battery/mmi_charging_enable
+
 # Add for oppoalgo_daemon
 service oppoalgo /vendor/bin/oppoalgo_daemon
     class main
