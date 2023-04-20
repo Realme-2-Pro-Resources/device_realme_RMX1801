@@ -20,10 +20,12 @@ persist.camera.aifb=1
 persist.camera.filter.version=1
 persist.dualcam.lpm.enable=1
 persist.vendor.camera.preview.ubwc=0
+ro.camera.attr.detect.enable=1
 ro.camera.dualcam.type=2
 ro.camera.hfr.enable=1
+ro.camera.notify_nfc=1
 ro.camera.sensor.aux2m=1
-ro.camera.temperature.limit=450
+ro.camera.temperature.limit=470
 
 # Data modules
 persist.data.df.dev_name=rmnet_usb0
@@ -68,7 +70,7 @@ ro.vendor.qti.va_odm.support=1
 
 # RIL
 DEVICE_PROVISIONED=1
-gsm.lte.ca.support=0
+gsm.lte.ca.support=1
 persist.radio.custom_exp_ecc=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/system/vendor/lib64/libril-qc-hal-qmi.so
