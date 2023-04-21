@@ -2762,6 +2762,18 @@ vendor/firmware/b_fp.b06
 vendor/firmware/b_fp.b07
 vendor/firmware/b_fp.mdt
 
+# FM - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+system_ext/lib/fm_helium.so|89b1d540475352172eac7265c97aba55d93c150e
+system_ext/lib/libfm-hci.so|b42ec9573f38587857ef01e7bdd88dd9bb6ae584
+-system_ext/lib/vendor.qti.hardware.fm@1.0.so|af23f9986a1836a2f937320946a1267563a82e22
+system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b711f2b21eae6dda60c1066cc7f09f2fdbbba05a
+vendor/lib/vendor.qti.hardware.fm@1.0.so|aad3ef11a2fa41bb5a2bf25f8960c53ac3e0f8a4
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|c828f2be5415f779bbd9113ed944f981a5fa1f2c
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
+
 # GPS - from DDV_sprout - m690-user 11 RKQ1.210607.001 00WW_3_440 release-keys
 vendor/bin/loc_launcher|f170dc02d9046fcde1fc58656b0387773a85e78d
 vendor/bin/lowi-server|6c66e4c543d67af692ff7c78f12fc90cc4bd0bcd
@@ -2925,17 +2937,13 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|c433c73b5469b787cb7fb70b05b
 vendor/lib64/vendor.qti.latency@2.0.so|60ab3143325e855f8c72e3f603c28efe2e7227b9
 vendor/lib64/vendor.qti.latency@2.1.so|47f0d25338274af94764be9d39eabef8cf5ca790
 
-# Listen
-vendor/lib/libadpcmdec.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/libsmwrapper.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
+# Listen - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
+vendor/lib/libgcs-calwrapper.so|7bbad068766b970e3fa576f372ed36b87e6d7898
+vendor/lib/libgcs-ipc.so|dd9c0e6e25b4b1c8a80cec843a7eec990111447f
+vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
+vendor/lib/libgcs.so|16dd5d2893062e717921674f92338d12a6a823fc
+vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
 
 # Media
 product/lib/vendor.qti.hardware.vpp@1.1.so
