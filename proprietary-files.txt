@@ -99,7 +99,6 @@ vendor/lib64/libbt-hidlclient.so|ff301380cf3c0ff68d2b7fcda3ba428ebf0a859e
 vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
 
 # Camera
 vendor/lib/hw/camera.sdm660.so|a41e126026934ce37778f430400a631c513aef05
@@ -2769,6 +2768,13 @@ vendor/firmware/b_fp.b06
 vendor/firmware/b_fp.b07
 vendor/firmware/b_fp.mdt
 
+# FM - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|c828f2be5415f779bbd9113ed944f981a5fa1f2c
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -2946,19 +2952,19 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|c433c73b5469b787cb7fb70b05b
 vendor/lib64/vendor.qti.latency@2.0.so|60ab3143325e855f8c72e3f603c28efe2e7227b9
 vendor/lib64/vendor.qti.latency@2.1.so|47f0d25338274af94764be9d39eabef8cf5ca790
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.sdm660.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/libsmwrapper.so
-vendor/lib64/hw/sound_trigger.primary.sdm660.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
+# Listen - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/lib/hw/sound_trigger.primary.sdm660.so|f9fc90dd0ffaff3df5873d9536bb7a2b7d60450c
+vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
+vendor/lib/libgcs-calwrapper.so|7bbad068766b970e3fa576f372ed36b87e6d7898
+vendor/lib/libgcs-ipc.so|dd9c0e6e25b4b1c8a80cec843a7eec990111447f
+vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
+vendor/lib/libgcs.so|16dd5d2893062e717921674f92338d12a6a823fc
+vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
+vendor/lib64/hw/sound_trigger.primary.sdm660.so|8ba814589804390c26ac221c154cfa0baa8b7fa3
+vendor/lib64/libgcs-calwrapper.so|a5ffefbb0bd9ffddcc25859e18b7a444cd4d7cba
+vendor/lib64/libgcs-ipc.so|cf81a1d80a3faf4c1dd201477d8d80ec92a56dba
+vendor/lib64/libgcs-osal.so|6563b261374b1cf54ce1eaf4eda4b98ea2a0ecd7
+vendor/lib64/libgcs.so|7cf96f4e509fe7f88cc73a124ad9a74017438b08
 
 # Media
 product/lib/vendor.qti.hardware.vpp@1.1.so
