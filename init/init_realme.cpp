@@ -85,8 +85,8 @@ void setRMX(unsigned int variant)
 {
     RMX180X_props prop[3] = {};
 
-    std::string build_desc = "redfin-user 13 TQ3A.230705.001 10216780 release-keys";
-    std::string build_fingerprint = "google/redfin/redfin:13/TQ3A.230705.001/10216780:user/release-keys";
+    std::string build_desc = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
+    std::string build_fingerprint = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
 
     // RMX1801
     prop[0] = {
