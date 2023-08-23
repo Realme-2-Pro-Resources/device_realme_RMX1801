@@ -161,10 +161,6 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
-# Perf
-ro.vendor.qti.core_ctl_min_cpu=2
-ro.vendor.qti.core_ctl_max_cpu=4
-
 # RCS and IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
