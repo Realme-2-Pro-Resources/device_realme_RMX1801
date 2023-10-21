@@ -71,6 +71,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's|/system/etc/camera/|/vendor/etc/camera/|g' "${2}"
             ;;
+        vendor/lib/libPerfectlyClearCrux.so|vendor/lib/libSonyIMX376RmscLibrary.so|vendor/lib/libSonyIMX519PdafLibrary.so|vendor/lib/libarcsoft_dualcam_bokeh_api.so|vendor/lib/libarcsoft_dualcam_refocus.so|vendor/lib/libarcsoft_dualcam_refocus_left.so|vendor/lib/libarcsoft_dualcam_refocus_preview.so|vendor/lib/libarcsoft_dualcam_refocus_right.so|vendor/lib/libarcsoft_smart_denoise.so|vendor/lib/libdepthmap.so|vendor/lib/libfilter.so|vendor/lib/libmmcamera_hdr_gb_lib.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF_0_17_2}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+            ;;
         *)
             return 1
             ;;
