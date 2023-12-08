@@ -24,9 +24,12 @@ cc_library_headers {
     export_include_dirs: ["include"],
 }
 
-cc_defaults {
-    name: "realme_touch_hal_defaults",
+cc_binary {
+    name: "vendor.lineage.touch@1.0-service.realme_sdm660",
     defaults: ["hidl_defaults"],
+    init_rc: ["vendor.lineage.touch@1.0-service.realme_sdm660.rc"],
+    vintf_fragments: ["vendor.lineage.touch@1.0-service.realme_sdm660.xml"],
+    vendor: true,
     relative_install_path: "hw",
     srcs: [
         ":vendor.lineage.touch@1.0-realme-touchgesture",
@@ -43,20 +46,4 @@ cc_defaults {
     header_libs: [
         "vendor.lineage.touch@1.0-realme-headers",
     ],
-}
-
-cc_binary {
-    name: "lineage.touch@1.0-service.realme_sdm660",
-    defaults: ["realme_touch_hal_defaults"],
-    init_rc: ["lineage.touch@1.0-service.realme_sdm660.rc"],
-    vintf_fragments: ["lineage.touch@1.0-service.realme_sdm660.xml"],
-    system_ext_specific: true,
-}
-
-cc_binary {
-    name: "vendor.lineage.touch@1.0-service.realme_sdm660",
-    defaults: ["realme_touch_hal_defaults"],
-    init_rc: ["vendor.lineage.touch@1.0-service.realme_sdm660.rc"],
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.realme_sdm660.xml"],
-    vendor: true,
 }
