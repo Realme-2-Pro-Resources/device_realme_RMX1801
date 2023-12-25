@@ -216,7 +216,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
-    libsynergy_loc_api \
     libgps.utils \
     liblocation_api \
     libwifi-hal-ctrl
