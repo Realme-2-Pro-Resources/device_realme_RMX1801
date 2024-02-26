@@ -1,5 +1,4 @@
 # Camera
-/data/media                                                                                                    u:object_r:media_rw_data_file:s0
 /mnt/vendor/persist/camera(/.*)?                                                                               u:object_r:persist_camera_file:s0
 /mnt/vendor/opporeserve/media(/.*)?                                                                            u:object_r:oppo_reserve_media_file:s0
 /mnt/vendor/opporeserve/media/Camera(/.*)?                                                                     u:object_r:oppo_reserve_media_camera:s0
