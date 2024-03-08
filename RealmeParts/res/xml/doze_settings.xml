@@ -24,7 +24,7 @@
         android:key="doze_enable"
         android:title="@string/ambient_enable" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="always_on_display"
         android:disableDependentsState="true"
         android:title="@string/ambient_display_always_on_title"
@@ -35,14 +35,14 @@
         android:key="proximity_sensor"
         android:title="@string/proximity_sensor_title">
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="gesture_hand_wave"
             android:defaultValue="false"
             android:title="@string/hand_wave_gesture_title"
             android:summary="@string/hand_wave_gesture_summary"
             android:icon="@drawable/ic_hand" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="gesture_pocket"
             android:defaultValue="false"
             android:title="@string/pocket_gesture_title"
