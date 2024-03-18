@@ -195,7 +195,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 # Dynamic Partitions
-PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_BUILD_SUPER_PARTITION := true
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
