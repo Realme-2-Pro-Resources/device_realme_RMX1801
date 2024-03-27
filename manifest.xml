@@ -103,7 +103,7 @@
         <fqname>@1.4::IRadio/slot2</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.radio.config</name>
+        <name>lineage.hardware.radio.config</name>
         <transport>hwbinder</transport>
         <version>1.1</version>
         <interface>

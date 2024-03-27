@@ -72,6 +72,13 @@ blob_fixups: blob_fixups_user_type = {
         .sig_replace('6e 28 74', 'f0 28 74')
         .sig_replace('74 d1 9a f8 09 00', '74 d1 00 f0 46 b8')
         .sig_replace('08 28 00 f2 a3 80', '08 28 00 f2 6b 80'),
+    'vendor/lib64/libril-qc-hal-qmi.so': blob_fixup()
+        .binary_regex_replace(b'android\\.hardware\\.radio\\.config@1\\.0\\.so',
+                              b'android.hardware.radio.c_shim@1.0.so')
+        .binary_regex_replace(b'android\\.hardware\\.radio\\.config@1\\.1\\.so',
+                              b'android.hardware.radio.c_shim@1.1.so')
+        .binary_regex_replace(b'android\\.hardware\\.radio\\.config@1\\.2\\.so',
+                              b'android.hardware.radio.c_shim@1.2.so'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/sensors.ssc.so': blob_fixup()

@@ -811,6 +811,9 @@ service esepmdaemon /system/vendor/bin/esepmdaemon
     user system
     group nfc
 
+on property:init.svc.vendor.qcrild=stopped
+    stop vendor.radio-config-1-1-wrapper
+
 on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
