@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     libdisplayconfig \
     libgui_vendor \
+    libion.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
     libqdMetaData.system \
@@ -231,6 +232,7 @@ PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor:64 \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
+    libhidlmemory.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -354,7 +356,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.0.vendor \
     CarrierConfigOverlay \
+    libnetutils.vendor \
     librmnetctl \
+    libsqlite.vendor \
     libxml2  \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
