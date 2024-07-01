@@ -114,6 +114,7 @@ PRODUCT_PACKAGES += \
     libexthwplugin \
     libhdmiedid \
     libhfp \
+    libprocessgroup.vendor \
     libsndmonitor \
     libspkrprot
 
