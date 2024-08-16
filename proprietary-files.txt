@@ -2593,7 +2593,7 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so|abe51fdbdcbf3449012395cf0ade8aa8d267d
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|b404ff23a51f505ecf2a61a1b0f4e569eedcd3c9
 vendor/bin/dpmQmiMgr|3c553042d4257161adb75c0979c829b0cb050639
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
 # DRM - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
