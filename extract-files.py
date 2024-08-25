@@ -41,6 +41,7 @@ lib_fixups: lib_fixups_user_type = {
         'com.qualcomm.qti.uceservice@2.1',
         'com.qualcomm.qti.uceservice@2.2',
         'com.qualcomm.qti.uceservice@2.3',
+        'vendor.qti.hardware.fm@1.0',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
     (
