@@ -51,6 +51,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/libwvhidl.so': blob_fixup()
+        .add_needed('libcrypto_shim.so'),
     (
         'system_ext/lib64/lib-imscamera.so',
         'system_ext/lib64/lib-imsvideocodec.so',
