@@ -3153,8 +3153,8 @@ system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
 system_ext/lib64/lib-imsvtextutils.so|336c0ffed49a0a4605f41b488771ee0217fa80f0
 system_ext/lib64/lib-imsvtutils.so|b4a39a247f767723ce67182ee92f526c029a019d
 system_ext/lib64/libdiag_system.so|0581aa56cdf6041388bca51e60b5792345f02736
-system_ext/lib64/libimscamera_jni.so|486abdb09a82ccee5e49307a17ba3dc9efdf5e9d
-system_ext/lib64/libimsmedia_jni.so|f8be2575f8eaef8bb89a4bc049381ebffe857831
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|486abdb09a82ccee5e49307a17ba3dc9efdf5e9d
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|f8be2575f8eaef8bb89a4bc049381ebffe857831
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
 system_ext/priv-app/ims/ims.apk|bed959752f39386d6a7045f8cf96226a14e31dfd
 vendor/bin/ims_rtp_daemon|ed5c13c758080d79a9371061d53127d406475614
