@@ -2,6 +2,7 @@
 
 # Current libraries with ELF checks disabled:
 # libGLESv1_CM_adreno, libq3dtools_adreno, libq3dtools_esx, libCB, libgsl, librs_adreno depends on intrinsic symbols which are difficult to shim (__aeabi_uldivmod)
+# libSTDualCamCaptureBokeh depends on unresolved symbols __exidx_end, __exidx_start
 
 # ADSP
 vendor/bin/adsprpcd
@@ -108,7 +109,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a
 # Camera
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libDxHdcp.so
-vendor/lib/libSTDualCamCaptureBokeh.so
+vendor/lib/libSTDualCamCaptureBokeh.so;DISABLE_CHECKELF
 vendor/lib/libSTDualCamPreviewBokeh.so
 vendor/lib/libSTdisp.so
 vendor/lib/libSonyIMX376RmscLibrary.so
