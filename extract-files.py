@@ -51,14 +51,45 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib/libdepthmap.so': blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
+        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
+        .clear_symbol_version('__aeabi_memcpy')
+        .clear_symbol_version('__aeabi_memset')
+        .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+    'vendor/lib/libmmcamera_hdr_gb_lib.so': blob_fixup()
+        .add_needed("liblog.so")
+        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    'vendor/lib/libVDBlurlessAPI_v2.so': blob_fixup()
+        .clear_symbol_version('remote_handle64_close')
+        .clear_symbol_version('remote_handle64_invoke')
+        .clear_symbol_version('remote_handle64_open'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    (
+        'vendor/lib/libthread_blur.so',
+        'vendor/lib/libVDDualCameraBlurlessAPI.so',
+        'vendor/lib/libVDSuperPhotoAPI.so',
+    ): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open'),
     (
         'system_ext/lib64/lib-imscamera.so',
         'system_ext/lib64/lib-imsvideocodec.so',
     ): blob_fixup()
         .add_needed('libgui_shim.so')
         .replace_needed('libqdMetaData.so', 'libqdMetaData.system.so'),
+    (
+        'vendor/lib/libmmcamera_pdaf.so',
+        'vendor/lib/libmmcamera_pdafcamif.so',
+        'vendor/lib/libmmcamera_tintless_bg_pca_algo.so',
+        'vendor/lib64/libmmcamera_tintless_bg_pca_algo.so',
+    ): blob_fixup()
+        .add_needed("liblog.so"),
     (
         'vendor/lib/hw/camera.sdm660.so',
         'vendor/lib/libarcvs.dep.so',
@@ -76,9 +107,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib/libarcsoft_dualcam_refocus_preview.so',
         'vendor/lib/libarcsoft_dualcam_refocus_right.so',
         'vendor/lib/libarcsoft_smart_denoise.so',
-        'vendor/lib/libdepthmap.so',
         'vendor/lib/libfilter.so',
-        'vendor/lib/libmmcamera_hdr_gb_lib.so',
     ): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
 }  # fmt: skip
