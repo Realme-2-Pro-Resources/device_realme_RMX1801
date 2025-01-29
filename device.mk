@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/realme/RMX1801
+PRODUCT_SOONG_NAMESPACES += \
+    device/realme/RMX1801 \
+    hardware/oppo
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -211,7 +213,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm660
+    android.hardware.biometrics.fingerprint@2.1-service.oppo
 
 # fwk-detect
 PRODUCT_PACKAGES += \
