@@ -474,56 +474,6 @@
         <fqname>@1.0::IUsbRestrict/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.oppo.engnative.engineer</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEngineer</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IEngineer/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.engnative.engsensor</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEngSensor</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IEngSensor/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.engnative.messager</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IMessager</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IMessager/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.engnative.transfer</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITransfer</name>
-            <instance>ATMWiFiHidlServer</instance>
-        </interface>
-        <fqname>@1.0::ITransfer/ATMWiFiHidlServer</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.biometrics.face</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IBiometricsFace</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IBiometricsFace/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
         <version>2.1</version>
@@ -532,16 +482,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.1::IBiometricsFingerprint/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.biometrics.fingerprintpay</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFingerprintPay</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IFingerprintPay/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.oppo.hardware.camera.oppopostproc</name>
@@ -594,16 +534,6 @@
         <fqname>@1.0::IMMDisplayFeature/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.oppo.hardware.oiface</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IOiface</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IOiface/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.hardware.radio.oppoappradio</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -626,16 +556,6 @@
         </interface>
         <fqname>@1.0::IOppoRadio/oppo_slot1</fqname>
         <fqname>@1.0::IOppoRadio/oppo_slot2</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.wifi.sniffer</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IOppoWifiSniffer</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IOppoWifiSniffer/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
@@ -941,36 +861,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ITuiComm/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.hostapd</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IHostapdVendor</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::IHostapdVendor/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.supplicant</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISupplicantVendor</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::ISupplicantVendor/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.wifilearner</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiStats</name>
-            <instance>wifiStats</instance>
-        </interface>
-        <fqname>@1.0::IWifiStats/wifiStats</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.ims.callinfo</name>
