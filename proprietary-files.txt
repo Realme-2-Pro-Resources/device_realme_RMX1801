@@ -2910,22 +2910,6 @@ vendor/etc/init/qcrild.rc
 # Init - modified
 vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 
-# Keybox
-vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service
-vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc
-vendor/etc/permissions/vendor-oppo-hardware.cryptoeng.xml
-vendor/lib64/libqsee_keybox_ca.so
-vendor/lib64/vendor.oppo.hardware.cryptoeng@1.0.so
-vendor/firmware/cryptoeng.b00
-vendor/firmware/cryptoeng.b01
-vendor/firmware/cryptoeng.b02
-vendor/firmware/cryptoeng.b03
-vendor/firmware/cryptoeng.b04
-vendor/firmware/cryptoeng.b05
-vendor/firmware/cryptoeng.b06
-vendor/firmware/cryptoeng.b07
-vendor/firmware/cryptoeng.mdt
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
