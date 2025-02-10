@@ -284,7 +284,6 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
-    libhypv_intercept \
     libmm-omxcore \
     libOmxCore \
     libOmxVdec \
