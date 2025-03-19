@@ -23,7 +23,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/realme/RMX1801/RMX1801-vendor.mk)
 
-PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
