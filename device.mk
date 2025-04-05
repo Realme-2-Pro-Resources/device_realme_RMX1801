@@ -190,7 +190,6 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_realme)
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
-    init.msm.usb.configfs.rc \
     init.oppo.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
