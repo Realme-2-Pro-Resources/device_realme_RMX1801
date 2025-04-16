@@ -160,6 +160,10 @@ ifneq ($(WITH_GMS),true)
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1287651328 # 1228 MB
 endif
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+TARGET_USES_INTERACTION_BOOST := true
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop

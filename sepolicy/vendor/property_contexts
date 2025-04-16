@@ -48,9 +48,6 @@ ro.rf_version                                    u:object_r:oppo_debug_prop:s0
 ro.sys.reserve.integrate                         u:object_r:oppo_debug_prop:s0
 sys.build.display.full_id                        u:object_r:oppo_debug_prop:s0
 
-# Power
-vendor.powerhal.                                 u:object_r:vendor_power_prop:s0
-
 # Radio
 gsm.operator.numeric                             u:object_r:exported_system_prop:s0
 persist.sys.oppo.region                          u:object_r:exported_system_prop:s0

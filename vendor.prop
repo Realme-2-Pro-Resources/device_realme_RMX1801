@@ -60,7 +60,7 @@ vendor.audio.feature.hifi_audio.enable=true
 vendor.audio.feature.hwdep_cal.enable=false
 vendor.audio.feature.incall_music.enable=false
 vendor.audio.feature.keep_alive.enable=false
-vendor.audio.feature.kpi_optimize.enable=false
+vendor.audio.feature.kpi_optimize.enable=true
 vendor.audio.feature.maxx_audio.enable=false
 vendor.audio.feature.multi_voice_session.enable=true
 vendor.audio.feature.ras.enable=true
@@ -164,6 +164,11 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.qti.core_ctl_min_cpu=2
+ro.vendor.qti.core_ctl_max_cpu=4
 
 # RCS and IMS
 persist.dbg.volte_avail_ovr=1

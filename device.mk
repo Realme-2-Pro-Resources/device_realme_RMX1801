@@ -29,10 +29,7 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    device/realme/RMX1801 \
-    hardware/google/interfaces \
-    hardware/google/pixel
+PRODUCT_SOONG_NAMESPACES += device/realme/RMX1801
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -137,10 +134,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml
-
-# ATRACE_HAL
-PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -270,7 +263,6 @@ PRODUCT_PACKAGES += \
     init.qti.qseecomd.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.uclamp.rc \
     ueventd.qcom.rc
 
 # IRQ Config
@@ -339,7 +331,6 @@ PRODUCT_PACKAGES += \
 
 # Perf
 PRODUCT_PACKAGES += \
-    libqti-perfd-client \
     vendor.qti.hardware.perf@2.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -347,11 +338,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.realme_sdm660-libperfmgr
-
-# Powerhint
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    android.hardware.power-service-qti
 
 # Protobuf
 PRODUCT_PACKAGES += \
