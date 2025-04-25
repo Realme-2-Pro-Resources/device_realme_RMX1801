@@ -4,4 +4,4 @@
 /dev/block/platform/soc/c0c4000\.sdhci/by-name/logdump u:object_r:metadata_block_device:s0
 
 # Touch
-/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.realme_sdm660    u:object_r:hal_lineage_touch_default_exec:s0
+/vendor/bin/hw/vendor\.lineage\.touch-service\.realme_sdm660    u:object_r:hal_lineage_touch_default_exec:s0
