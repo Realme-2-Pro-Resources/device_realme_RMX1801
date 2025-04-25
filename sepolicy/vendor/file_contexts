@@ -1,2 +1,2 @@
 # Touch
-/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.realme_sdm660    u:object_r:hal_lineage_touch_default_exec:s0
+/vendor/bin/hw/vendor\.lineage\.touch-service\.realme_sdm660    u:object_r:hal_lineage_touch_default_exec:s0

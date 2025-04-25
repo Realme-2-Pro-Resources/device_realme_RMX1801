@@ -404,7 +404,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.realme_sdm660
+    vendor.lineage.touch-service.realme_sdm660
 
 # USB
 PRODUCT_PACKAGES += \
