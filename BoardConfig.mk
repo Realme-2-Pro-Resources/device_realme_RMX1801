@@ -108,7 +108,6 @@ DEVICE_MATRIX_FILE   := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_realme
-TARGET_RECOVERY_DEVICE_MODULES := libinit_realme
 
 # Media
 TARGET_USES_ION := true
