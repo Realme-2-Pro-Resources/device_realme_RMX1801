@@ -91,10 +91,6 @@ TARGET_OTA_ASSERT_DEVICE := RMX1801
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-# ANT+
-PRODUCT_PACKAGES += \
-    AntHalService-Soong
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl:32 \
