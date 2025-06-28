@@ -198,6 +198,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Sepolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 include hardware/oppo/sepolicy/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    $(DEVICE_PATH)/sepolicy/vendor
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
