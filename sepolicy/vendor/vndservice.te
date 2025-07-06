@@ -1,2 +1,0 @@
-type fingerprintvnd_service, vndservice_manager_type;
-type oppoalgo_service, vndservice_manager_type;
