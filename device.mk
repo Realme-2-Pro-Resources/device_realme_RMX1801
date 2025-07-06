@@ -262,6 +262,7 @@ PRODUCT_PACKAGES += \
     init.qti.qseecomd.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    ueventd.oppo.rc \
     ueventd.qcom.rc
 
 # IRSC
