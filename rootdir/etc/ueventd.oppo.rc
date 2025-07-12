@@ -1,3 +1,0 @@
-/sys/bus/platform/devices/soc:fpc_fpc1020    irq              0664   system  system
-/sys/bus/platform/devices/soc:fpc_fpc1020    irq_enable       0664   system  system
-/sys/bus/platform/devices/soc:fpc_fpc1020    wakelock_enable  0664   system  system

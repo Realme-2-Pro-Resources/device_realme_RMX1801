@@ -102,6 +102,14 @@ on boot
     chmod 0666 /sys/devices/virtual/graphics/fb0/panel_serial_number
     chmod 0666 /sys/kernel/oppo_display/sau_closebl_node
 
+    # FPC fingerprint
+    chown system system /sys/bus/platform/devices/soc:fpc_fpc1020/irq
+    chown system system /sys/bus/platform/devices/soc:fpc_fpc1020/irq_enable
+    chown system system /sys/bus/platform/devices/soc:fpc_fpc1020/wakelock_enable
+    chmod 0664 /sys/bus/platform/devices/soc:fpc_fpc1020/irq
+    chmod 0664 /sys/bus/platform/devices/soc:fpc_fpc1020/irq_enable
+    chmod 0664 /sys/bus/platform/devices/soc:fpc_fpc1020/wakelock_enable
+
 on init
     start keymaster-3-0
 

@@ -272,7 +272,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.target_dap.rc \
     init.target_ota.rc \
-    ueventd.oppo.rc \
     ueventd.qcom.rc
 
 # IRSC
