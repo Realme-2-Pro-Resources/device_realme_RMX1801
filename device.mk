@@ -256,18 +256,22 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.msm.usb.configfs.rc \
+    init.class_main.sh \
     init.oppo.rc \
+    init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
-    init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
+    init.qti.can.sh \
+    init.qti.dcvs.sh \
     init.qti.qseecomd.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.target_dap.rc \
+    init.target_ota.rc \
     ueventd.oppo.rc \
     ueventd.qcom.rc
 

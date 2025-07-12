@@ -217,6 +217,24 @@ case "$target" in
              hw_platform=`cat /sys/devices/system/soc/soc0/hw_platform`
         fi
 
+        case "$soc_id" in
+             "317" | "324" | "325" | "326" | "318" | "327" )
+                  case "$hw_platform" in
+                       "Surf")
+                                    setprop qemu.hw.mainkeys 0
+                                    ;;
+                       "MTP")
+                                    setprop qemu.hw.mainkeys 0
+                                    ;;
+                       "RCM")
+                                    setprop qemu.hw.mainkeys 0
+                                    ;;
+                       "QRD")
+                                    setprop qemu.hw.mainkeys 0
+                                    ;;
+                  esac
+                  ;;
+       esac
         start_msm_irqbalance660
         ;;
     "apq8084")
@@ -438,14 +456,10 @@ buildvariant=`getprop ro.build.type`
 case "$buildvariant" in
     "userdebug" | "eng")
         #set default loglevel to KERN_INFO
-        echo "6 6 1 7" > /proc/sys/kernel/printk
+        echo "4 6 1 7" > /proc/sys/kernel/printk
         ;;
     *)
         #set default loglevel to KERN_WARNING
-        #ifdef VENDOR_EDIT
-        #chenguanhua@RM.BSP.Kernel, 20190522 set default printk log level 1 6 1 7
-        #echo "4 4 1 4" > /proc/sys/kernel/printk
-        echo "1 6 1 7" > /proc/sys/kernel/printk
-        #endif
+        echo "4 4 1 4" > /proc/sys/kernel/printk
         ;;
 esac
