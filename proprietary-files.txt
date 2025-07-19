@@ -2893,6 +2893,13 @@ vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc
 vendor/lib64/libhypnusclient.so
 vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
 
+# Init - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
+vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
+vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
+
 # Init
 vendor/etc/init/cnd.rc
 vendor/etc/init/dataadpl.rc
@@ -2906,9 +2913,6 @@ vendor/etc/init/init.qdmastats.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrild.rc
-
-# Init - modified
-vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -3262,6 +3266,7 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Sensors
+vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/lib/hw/activity_recognition.sdm660.so
 vendor/lib/hw/sensors.sdm660_64.so
