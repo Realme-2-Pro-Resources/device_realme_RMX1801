@@ -2697,16 +2697,8 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so
 
 # Fingerprint
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
-vendor/bin/qfp-daemon
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/permissions/qti_fingerprint_interface.xml
-vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/android.frameworks.fingerprintservice@1.0.so
-vendor/lib64/libalipay_factory.so
-vendor/lib64/libqfp-service.so
-vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Fingerprint Firmware
 vendor/firmware/a_fp.b00
