@@ -3310,6 +3310,10 @@ vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
+# Sensors - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
+vendor/lib64/sensors.ssc.so|13e4c4264c5ef77339bc86640f2589186b3bb096
+
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
@@ -3322,7 +3326,6 @@ vendor/lib/libsensor_thresh.so
 vendor/lib/libsensor_user_cal.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensor_calibrate.so
-vendor/lib/sensors.ssc.so
 vendor/lib64/hw/activity_recognition.sdm660.so
 vendor/lib64/hw/sensors.sdm660_64.so
 vendor/lib64/libsensor1.so
@@ -3332,7 +3335,6 @@ vendor/lib64/libsensor_thresh.so
 vendor/lib64/libsensor_user_cal.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensor_calibrate.so
-vendor/lib64/sensors.ssc.so
 
 # Sensor-configs
 vendor/etc/sensors/sensor_def_18321.conf
