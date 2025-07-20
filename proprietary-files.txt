@@ -3377,11 +3377,11 @@ vendor/lib/libthermalclient.so|b2d69a3a3589eb0387c2f13cc10ff91072c27c9a
 vendor/lib64/libthermalclient.so|26475ef0d6b80fcf40c9490f795d21e46d3d9054
 vendor/lib64/libthermalfeature.so|a1d99d33946d99ca620c6f5a8f4759d600a89086
 
-# Time
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
-vendor/lib64/libtime_genoff.so
+# Time - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+-vendor/app/TimeService/TimeService.apk|aae6864069e8117bb8e899fe4b45c1865f76d682
+vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # UBWC
 vendor/lib64/libUBWC.so
