@@ -2520,8 +2520,8 @@ vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5
 vendor/lib64/libcdsprpc.so|972c2393a698c5115bbd2c656b6868a3bbd2f158
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a824d368cd4172985c884796381327d950da
