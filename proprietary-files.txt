@@ -3383,9 +3383,9 @@ vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
-# UBWC
-vendor/lib64/libUBWC.so
-vendor/lib64/libstreamparser.so
+# UBWC - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/lib64/libUBWC.so|2d716d9bb1c2d4ba42d3a850085c0d7d3a3b37f4
+vendor/lib64/libstreamparser.so|aa8ec0d2b9fd4a9c8da62905690383feacc1acf7
 
 # WiFi
 vendor/bin/cnss-daemon
