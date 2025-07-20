@@ -2508,18 +2508,19 @@ vendor/lib/vendor.oppo.hardware.camera.oppopostproc@1.0.so
 vendor/lib64/hw/vendor.oppo.hardware.camera.oppopostproc@1.0-impl.so
 vendor/lib64/vendor.oppo.hardware.camera.oppopostproc@1.0.so
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libfastcrc.so
-vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libfastcrc.so
-vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libsysmon_cdsp_skel.so
+# CDSP - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
+vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/lib/libcdfw.so|f040e309ee7cd5989f8f22258e02ede7b4c2ebf0
+vendor/lib/libcdfw_remote_api.so|d6bfc91c621f94136f8878c588504542c52cc816
+vendor/lib/libcdsp_default_listener.so|a0ffe63d862cbd6e0c839698b7f90a0650e1b9be
+vendor/lib/libcdsprpc.so|f0592192629552b1e6ec49221d2df00335a2e261
+vendor/lib/libsysmon_cdsp_skel.so|c6dddba8637ad468de69bd329d2948721c537801
+vendor/lib64/libcdfw.so|543b8282f4b6719113f04e14dd908137521e2bb5
+vendor/lib64/libcdfw_remote_api.so|558636f4fa4c17f29cb644c8c6e07766b7240005
+vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
+vendor/lib64/libcdsprpc.so|972c2393a698c5115bbd2c656b6868a3bbd2f158
+vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -2907,7 +2908,6 @@ vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
 # Init - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 
