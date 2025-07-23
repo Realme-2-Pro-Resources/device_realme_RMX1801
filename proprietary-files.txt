@@ -2652,6 +2652,7 @@ vendor/bin/qseecomd|1aa84570b97468e3e6d0a1266396db7d087d8f87
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/lib/libQSEEComAPI.so|b88a74220b7082c4e066ab98664e653b9f0e76ea
+vendor/lib/libqcbor.so|3371e2fb2be1d7ff569f35841c88d2f8fe9199a5
 vendor/lib/libsdedrm.so|9bfbcb30a2d91a18c54111b403df91dee07c82ab
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|1662ff9ec4e65d9b42f41ab2536378904a183627
 vendor/lib64/libGPQTEEC_vendor.so|bc884615f468508bd7f7fec793414d9fde58f0d0
@@ -2662,6 +2663,7 @@ vendor/lib64/libQSEEComAPI.so|56ddcf0b5d7396377828db98d8705b89e48a930f
 vendor/lib64/libSecureUILib.so|06c34dde058a9d83b78167ecd6bf2f2565dd406b
 vendor/lib64/libStDrvInt.so|6091f1f496b87730f9a77e9ede504c4fa99c608a
 vendor/lib64/libcpion.so|b412ee0d83184dd35d3e8044c37be90543e4a5f4
+vendor/lib64/libdisplayconfig.qti.so|0739fba3fafccc55f3741e627bdd92250cb4e762
 vendor/lib64/libdrmfs.so|11a6e61c2d1e66d0ed89848bb56d4c9852379a12
 vendor/lib64/libdrmtime.so|d1e84e6bc6545ecc8dea1c648de0b691c2de7e6c
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
