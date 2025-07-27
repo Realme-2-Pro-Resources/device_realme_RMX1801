@@ -626,6 +626,6 @@
             <name>IRTPService</name>
             <instance>imsrtpservice</instance>
         </interface>
-        <fqname>@2.1::IRTPService/imsrtpservice</fqname>
+        <fqname>@3.0::IRTPService/imsrtpservice</fqname>
     </hal>
 </manifest>
