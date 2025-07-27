@@ -67,10 +67,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libqdMetaData.so" "libqdMetaData.system.so" "${2}"
             ;;
-        vendor/bin/hw/android.hardware.health@2.0-service.oppo)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
-            ;;
         vendor/lib/hw/camera.sdm660.so|vendor/lib/libarcvs.dep.so|vendor/lib/libmmcamera2_sensor_modules.so|vendor/lib/libmmcamera_interface.so)
             [ "$2" = "" ] && return 0
             sed -i 's|/system/etc/camera/|/vendor/etc/camera/|g' "${2}"

@@ -224,9 +224,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service \
     android.hardware.health@2.1.vendor:64
 
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v30.so
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor:64 \
