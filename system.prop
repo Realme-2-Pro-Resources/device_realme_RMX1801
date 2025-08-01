@@ -73,7 +73,6 @@ persist.radio.custom_exp_ecc=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/system/vendor/lib64/libril-qc-hal-qmi.so
 ro.telephony.default_network=22,22
-ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
 
 # Sensors
