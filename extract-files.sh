@@ -59,10 +59,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
-            [ "$2" = "" ] && return 0
-            sed -i 's|xml version="2.0"|xml version="1.0"|g' "${2}"
-            ;;
         system_ext/lib64/lib-imsvideocodec.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libqdMetaData.so" "libqdMetaData.system.so" "${2}"
