@@ -37,6 +37,10 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
         'com.qualcomm.qti.dpm.api@1.0',
+        'com.qualcomm.qti.uceservice@2.0',
+        'com.qualcomm.qti.uceservice@2.1',
+        'com.qualcomm.qti.uceservice@2.2',
+        'com.qualcomm.qti.uceservice@2.3',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
     (
