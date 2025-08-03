@@ -22,4 +22,7 @@
 <resources>
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">12dp</dimen>
 </resources>
