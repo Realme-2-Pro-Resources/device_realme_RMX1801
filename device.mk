@@ -403,10 +403,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch-service.realme_sdm660
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.basic
