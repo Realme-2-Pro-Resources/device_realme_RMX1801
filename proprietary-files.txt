@@ -2751,6 +2751,7 @@ vendor/lib64/libasn1cper.so|4570be025ca1438da074db7a33e2f690a341a590
 vendor/lib64/libasn1crt.so|f1ab203f5c58750433f07362128c5a835fe8a557
 vendor/lib64/libasn1crtx.so|9ec8d2eedff3a5a333be714ccd76b8c3cf593cf0
 vendor/lib64/libbatching.so|d3d4cb5aefb1ec0618ca2a355b17101dae710914
+vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libdataitems.so|90379d3b3d036ed26bdad94a52a1cdf406f6b562
 vendor/lib64/libgdtap.so|b46b7f6caaf2c2d4f43ed263bcdff3edfdc9f0f1
 vendor/lib64/libgeofencing.so|dbd722a519ea0a2fa2d797f4b0ac14a83525afbf
@@ -2782,6 +2783,7 @@ vendor/lib64/vendor.qti.gnss@2.1.so|81142c88b15688a671bd372f013dfb2e77d1998d
 vendor/lib64/vendor.qti.gnss@3.0.so|1c0b41eddcc4789e1ea842be02d511afad123a8e
 vendor/lib64/vendor.qti.gnss@4.0-service.so|04233086636be1aeaaedf88d3126803b0c40c11d
 vendor/lib64/vendor.qti.gnss@4.0.so|e38ae43982dc62bf48193a6c3eb2ae385adb37aa
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
 
 # GNSS configs - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
 vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
