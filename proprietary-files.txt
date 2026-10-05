@@ -3279,8 +3279,8 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Sensors - from m690-user 11 RKQ1.210607.001 00WW_3_710_SP05 release-keys
-vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
-vendor/lib64/sensors.ssc.so|13e4c4264c5ef77339bc86640f2589186b3bb096
+vendor/lib/sensors.ssc.so|50c0673f74965e44e83bed774c6d1c0e3287d121
+vendor/lib64/sensors.ssc.so|7c72d4458a8306a1cf08ede15e339b6a9be2df98
 
 # Sensors
 vendor/bin/init.qcom.sensors.sh

@@ -75,6 +75,20 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF_0_17_2}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/lib/sensors.ssc.so)
+            [ "$2" = "" ] && return 0
+            sed -i "s/\x73\x08\x68\x28\x21/\x73\x08\x68\xf0\x21/" "${2}"
+            sed -i "s/\x6e\x28\x74/\xf0\x28\x74/" "${2}"
+            sed -i "s/\x74\xd1\x9a\xf8\x09\x00/\x74\xd1\x00\xf0\x46\xb8/" "${2}"
+            sed -i "s/\x08\x28\x00\xf2\xa3\x80/\x08\x28\x00\xf2\x6b\x80/" "${2}"
+            ;;
+        vendor/lib64/sensors.ssc.so)
+            [ "$2" = "" ] && return 0
+            sed -i "s/\x39\x28\x00\x40\xf9\x09\x05\x80\x52/\x39\x28\x00\x40\xf9\x09\x1e\x80\x52/" "${2}"
+            sed -i "s/\x1f\xb9\x01\x71\xa1/\x1f\xc1\x03\x71\xa1/" "${2}"
+            sed -i "s/\x54\xa8\x02\x16\x8b\x08\x25\x40\x39\xa8/\x54\x4a\x00\x00\x14\x08\x25\x40\x39\xa8/" "${2}"
+            sed -i "s/\x7f\xb8\x01\x71\x01\x0b\x00\x54/\x7f\xb8\x01\x71\xa1\x07\x00\x54/" "${2}"
+            ;;
         *)
             return 1
             ;;
