@@ -67,8 +67,18 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_handle64_close')
         .clear_symbol_version('remote_handle64_invoke')
         .clear_symbol_version('remote_handle64_open'),
+    'vendor/lib/sensors.ssc.so': blob_fixup()
+        .sig_replace('73 08 68 28 21', '73 08 68 f0 21')
+        .sig_replace('6e 28 74', 'f0 28 74')
+        .sig_replace('74 d1 9a f8 09 00', '74 d1 00 f0 46 b8')
+        .sig_replace('08 28 00 f2 a3 80', '08 28 00 f2 6b 80'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    'vendor/lib64/sensors.ssc.so': blob_fixup()
+        .sig_replace('39 28 00 40 f9 09 05 80 52', '39 28 00 40 f9 09 1e 80 52')
+        .sig_replace('1f b9 01 71 a1', '1f c1 03 71 a1' )
+        .sig_replace('54 a8 02 16 8b 08 25 40 39 a8', '54 4a 00 00 14 08 25 40 39 a8')
+        .sig_replace('7f b8 01 71 01 0b 00 54', '7f b8 01 71 a1 07 00 54'),
     (
         'vendor/lib/libthread_blur.so',
         'vendor/lib/libVDDualCameraBlurlessAPI.so',
@@ -83,16 +93,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libgui_shim.so')
         .replace_needed('libqdMetaData.so', 'libqdMetaData.system.so'),
-    'vendor/lib/sensors.ssc.so': blob_fixup()
-        .sig_replace('73 08 68 28 21', '73 08 68 f0 21')
-        .sig_replace('6e 28 74', 'f0 28 74')
-        .sig_replace('74 d1 9a f8 09 00', '74 d1 00 f0 46 b8')
-        .sig_replace('08 28 00 f2 a3 80', '08 28 00 f2 6b 80'),
-    'vendor/lib64/sensors.ssc.so': blob_fixup()
-        .sig_replace('39 28 00 40 f9 09 05 80 52', '39 28 00 40 f9 09 1e 80 52')
-        .sig_replace('1f b9 01 71 a1', '1f c1 03 71 a1' )
-        .sig_replace('54 a8 02 16 8b 08 25 40 39 a8', '54 4a 00 00 14 08 25 40 39 a8')
-        .sig_replace('7f b8 01 71 01 0b 00 54', '7f b8 01 71 a1 07 00 54'),
     (
         'vendor/lib/libmmcamera_pdaf.so',
         'vendor/lib/libmmcamera_pdafcamif.so',
