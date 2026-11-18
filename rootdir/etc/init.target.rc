@@ -28,7 +28,6 @@
 #
 
 import /vendor/etc/init/hw/init.target_dap.rc
-import /vendor/etc/init/hw/init.target_ota.rc
 
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1

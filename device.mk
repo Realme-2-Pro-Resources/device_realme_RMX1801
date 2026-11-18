@@ -210,7 +210,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.target_dap.rc \
-    init.target_ota.rc \
     ueventd.qcom.rc
 
 # IRQ Config
